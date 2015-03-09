@@ -1,0 +1,7 @@
+/* Custom Background */
+/* Applies a custom background for Google+ */
+/* Applies to URLs on the domain - plus.google.com */
+
+.mw {
+    background:url('http://i.imgur.com/vaLfep7.jpg') fixed !important;
+}

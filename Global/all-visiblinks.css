@@ -1,0 +1,12 @@
+/* Visible Links */
+/* Adds a subtle shade of green on links when hovered, and changes all non-visited links to use green instead of the default blue.*/
+/* Applies to - Everything */
+
+a {
+ color:rgba(0,125,0, 1); 
+}
+
+a:hover {
+  background-color:rgba(0,125,0,0.10) !important;
+  color:rgba(0,125,0, 1);
+}

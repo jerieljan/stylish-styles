@@ -1,0 +1,11 @@
+/* No Participation */
+/* Changes -no participation- Reddit links to remove voting arrows to prevent impulse voting. */
+/* Applies to URLs on the domain: np.reddit.com */
+
+.arrow.up, .arrow.down, .submit, .save {
+  display:none !important;
+}
+    
+.score {
+      margin-top: 22px;
+}

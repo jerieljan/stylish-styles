@@ -1,0 +1,17 @@
+/* ForceFont */
+/* Changes the default font on all webpages to a more legible and less-spaced Noto Sans font. Make sure you have the Noto Sans font family available at Google Fonts for free.*/
+/* Applies to - Everything */
+
+body {  
+  font-family: "Noto Sans" !important;
+  letter-spacing: -0.65px !important;
+  
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1;
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+}
+
+
+<!-- Original setting: Source Sans Pro, -0.25px -->
