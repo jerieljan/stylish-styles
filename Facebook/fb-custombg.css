@@ -1,0 +1,14 @@
+/* Custom Background */
+/* Applies a simple background on Facebook. */
+/* Applies to URLs on the domain - www.facebook.com */
+
+/* Custom Background */
+
+._li {
+  background:url('http://i.imgur.com/vaLfep7.jpg') fixed;
+}
+  
+#contentCol {
+    background-color:inherit !important;
+}
+

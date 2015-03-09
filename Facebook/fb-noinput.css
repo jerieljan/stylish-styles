@@ -1,0 +1,7 @@
+/* No Input */
+/* This style removes all input fields, preventing uninformed would-be public viewers to write stuff on your unattended Facebook session. */
+/* Applies to URLs on the domain: www.facebook.com */
+
+input, textarea, .UFIAddComment, .UFILikeLink, .uiLinkButtonInput, .share_action_link, #pagelet_composer {
+    display:none !important;
+  }
