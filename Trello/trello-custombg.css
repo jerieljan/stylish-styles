@@ -1,0 +1,7 @@
+/* Trello - Custom Background */
+/* Applies a custom background on your boards, for those who don't want to pay Trello Gold :( */
+/* Applies to - URLs starting with https://trello.com/b/ */
+
+body {
+     background:url('http://i.imgur.com/8osQbPQ.png') fixed !important; 
+}

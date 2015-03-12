@@ -1,0 +1,16 @@
+/*  Trello - Shadowed Lists */
+/* Adds a shadow on lists and a subtle shadow on individual cards, for a simple depth effect. */
+/* Works best on Trello Gold with different backgrounds, or use a style that does it for you. :) */
+/* Applies to - URLs starting with https://trello.com/b */
+
+.list {
+     -webkit-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.8);
+     -moz-box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.8);
+     box-shadow: 5px 5px 30px 0px rgba(0,0,0,0.8);
+}
+  
+.list-card {
+     -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+     -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+     box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.3);
+}
