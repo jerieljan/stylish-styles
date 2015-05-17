@@ -1,0 +1,8 @@
+/* Smooth Transitions */
+/* Applies a global css-transition setting to all elements in all webpages,
+causing HTML elements to tween or fade into place when it can.*/
+/* Applies to - Everything */
+
+* {
+    -webkit-transition: 0.75s ease;
+}
