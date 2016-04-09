@@ -1,0 +1,29 @@
+/* Remove Site Links */
+/* This stylesheet hides all links that point to a particular site that you don't want to visit, but still keeps it on the page with a warning in case you REALLY have to visit it. This does NOT block the actual sites. Use uBlock Origin or some other extension for that. */
+/* Applies to - Everything */
+
+// Changes color to complete transparency. I could use visibility tags here, but I prefer this so you can still highlight the text.
+// You can add multiple sites as necessary with commas as demonstrated below.
+
+a[href*="sampleone.com"],
+a[href*="sampletwo.com"] {
+    color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+// Reveal the link when you hover it.
+
+a[href*="sampleone.com"]:hover,
+a[href*="sampletwo.com"]:hover {
+    color: rgba(75, 0, 0, 0.5) !important;
+}
+
+// You can of course, add messages before or after the links once you do hover it. Useful for friendly reminders.
+// Also, you can customize the messages per site by simply specifying them one at a time.
+
+a[href*="sampleone.com"]:before {
+    content: "✋ ";
+}
+a[href*="sampletwo.com"]:before {
+    content: "✋ ";
+}
